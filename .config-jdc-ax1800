@@ -142,7 +142,7 @@ CONFIG_PACKAGE_iptables-kmod-ipt-nat=y
 #dae deps
 CONFIG_PACKAGE_kmod-sched-bpf=y
 CONFIG_PACKAGE_kmod-xdp-sockets-diag=y
-CONFIG_PACKAGE_luci-app-daed=y	
+
 
 CONFIG_PACKAGE_iputils-arping=y
 CONFIG_PACKAGE_jq=y

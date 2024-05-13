@@ -139,6 +139,8 @@ CONFIG_PACKAGE_iptables-mod-iprange=y
 CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
 CONFIG_PACKAGE_iptables-kmod-ipt-nat=y
 
+CONFIG_PACKAGE_kmod-sched-bpft=y
+CONFIG_PACKAGE_kmod-xdp-sockets-diagt=y
 
 CONFIG_PACKAGE_iputils-arping=y
 CONFIG_PACKAGE_jq=y

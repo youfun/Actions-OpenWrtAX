@@ -10,10 +10,14 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/deng/l
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/deng/luci-app-passwall2
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git package/deng/passwall-packages
 git clone --depth 1 https://github.com/sbwml/luci-app-alist package/deng/luci-app-alist
-git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome package/deng/luci-app-adguardhome
+
+#git clone --depth 1 https://github.com/kenzok78/luci-app-adguardhome package/deng/luci-app-adguardhome
+
 git clone --depth 1 https://github.com/zzsj0928/luci-app-pushbot package/deng/luci-app-pushbot
 git clone --depth 1 https://github.com/sirpdboy/luci-app-ddns-go package/deng/luci-app-ddns-go
-git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/deng/luci-app-netdata
+
+#git clone --depth 1 https://github.com/Jason6111/luci-app-netdata package/deng/luci-app-netdata
+
 git clone --depth 1 https://github.com/esirplayground/luci-app-poweroff package/deng/luci-app-poweroff
 git clone --depth 1 https://github.com/tty228/luci-app-wechatpush.git package/deng/luci-app-wechatpush
 git clone --depth 1 https://github.com/lisaac/luci-app-dockerman package/deng/luci-app-dockerman
@@ -33,7 +37,7 @@ git clone --depth 1 https://github.com/immortalwrt/packages deng-tmp8 && mv deng
 
 
 # Modify default IP（FROM 192.168.1.1 CHANGE TO 10.10.10.1）
-sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 
 # Modify default theme（FROM uci-theme-bootstrap CHANGE TO luci-theme-material）
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
